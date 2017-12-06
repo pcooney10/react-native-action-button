@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import { LinearGradient } from 'expo';
 import {
   StyleSheet,
   Text,
@@ -212,9 +213,11 @@ export default class ActionButton extends Component {
           <Animated.View
             style={wrapperStyle}
           >
-            <Animated.View style={[buttonStyle, animatedViewStyle]}>
+            <Animated.LinearGradient
+              colors={['#4c669f', '#15CCD9', '#192f6a']}
+              style={[buttonStyle, animatedViewStyle]}>
               {this._renderButtonIcon()}
-            </Animated.View>
+            </Animated.LinearGradient>
           </Animated.View>
         </Touchable>
       </View>
