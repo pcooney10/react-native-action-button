@@ -215,7 +215,7 @@ export default class ActionButton extends Component {
           >
             <Animated.View style={[buttonStyle, animatedViewStyle]}>
               <LinearGradient
-                colors={['#4c669f', '#15CCD9', '#192f6a']}
+                colors={['#16CCD9', '#F462A8']}
                 style={buttonStyle}
                >
                 {this._renderButtonIcon()}
