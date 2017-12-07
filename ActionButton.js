@@ -214,12 +214,12 @@ export default class ActionButton extends Component {
             style={wrapperStyle}
           >
             <Animated.View style={[buttonStyle, animatedViewStyle]}>
-              <Animated.LinearGradient
+              <LinearGradient
                 colors={['#4c669f', '#15CCD9', '#192f6a']}
-                style={[buttonStyle, animatedViewStyle]}
+                style={buttonStyle}
                >
                 {this._renderButtonIcon()}
-              </Animated.LinearGradient>
+              </LinearGradient>
             </Animated.View>
           </Animated.View>
         </Touchable>
