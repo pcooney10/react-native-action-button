@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import { LinearGradient } from 'expo';
+import LinearGradient from 'react-native-web-linear-gradient'
 import {
   StyleSheet,
   Text,
